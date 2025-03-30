@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScorpioX Team - Linux Distros</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Шапка -->
+        <div class="header-panel">
+            <h1>ScorpioX Team</h1>
+            <p>Linux Distros in Retro Style</p>
+        </div>
+
+        <!-- Навигация -->
+        <div class="nav-panel">
+            <button class="nav-button active" onclick="showTab('home')">Home</button>
+            <button class="nav-button" onclick="showTab('downloads')">Downloads</button>
+            <button class="nav-button" onclick="showTab('about')">About</button>
+        </div>
+
+        <!-- Главный контент -->
+        <div class="main-panel" id="home">
+            <h2>Our Distributions</h2>
+            <div class="distro-grid">
+                <!-- Kaneki Linux -->
+                <div class="distro-card">
+                    <img src="kaneki-logo.png" alt="Kaneki Linux" class="distro-logo">
+                    <h3>Kaneki Linux</h3>
+                    <p>Dark-themed OS for hackers and developers.</p>
+                    <button class="glossy-button">Download</button>
+                </div>
+
+                <!-- XortiX Linux -->
+                <div class="distro-card">
+                    <img src="xortix-logo.png" alt="XortiX Linux" class="distro-logo">
+                    <h3>XortiX Linux</h3>
+                    <p>Cyberpunk-style lightweight distro.</p>
+                    <button class="glossy-button">Download</button>
+                </div>
+
+                <!-- ScorpioX Linux -->
+                <div class="distro-card">
+                    <img src="scorpiox-logo.png" alt="ScorpioX Linux" class="distro-logo">
+                    <h3>ScorpioX Linux</h3>
+                    <p>Metallic red/black themed OS.</p>
+                    <button class="glossy-button">Download</button>
+                </div>
+
+                <!-- Universal Linux -->
+                <div class="distro-card">
+                    <img src="universal-logo.png" alt="Universal Linux" class="distro-logo">
+                    <h3>Universal Linux</h3>
+                    <p>Debian-based all-purpose OS.</p>
+                    <button class="glossy-button">Download</button>
+                </div>
+
+                <!-- MBLinux -->
+                <div class="distro-card">
+                    <img src="mblinux-logo.png" alt="MBLinux" class="distro-logo">
+                    <h3>MBLinux</h3>
+                    <p>Multi-boot Linux (GRUB GUI).</p>
+                    <button class="glossy-button">Download</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Downloads Tab (скрыт по умолчанию) -->
+        <div class="main-panel hidden" id="downloads">
+            <h2>Downloads</h2>
+            <div class="download-list">
+                <div class="download-item">
+                    <h3>Kaneki Linux</h3>
+                    <p>Version 1.0 | Debian-based</p>
+                    <button class="glossy-button">ISO (1.2 GB)</button>
+                </div>
+                <div class="download-item">
+                    <h3>XortiX Linux</h3>
+                    <p>Version 2.4 | Arch-based</p>
+                    <button class="glossy-button">ISO (800 MB)</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Tab (скрыт по умолчанию) -->
+        <div class="main-panel hidden" id="about">
+            <h2>About Us</h2>
+            <p>ScorpioX Team creates Linux distros in a retro 2012 style.</p>
+            <p>Inspired by Debian Red Ribbon, Ubuntu 12.04, and old-school skeuomorphism.</p>
+        </div>
+
+        <!-- Футер -->
+        <div class="footer-panel">
+            <p>© 2024 ScorpioX Team | Designed in 2012 Style</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
