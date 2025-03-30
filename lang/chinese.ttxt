@@ -1,0 +1,19 @@
+name=中文 (恶搞版)
+iso-code=ZH-ROFL
+language{
+home , 主页 (+10社会信用);
+downloads , 下载 (+44444碗米饭);
+settings , 设置 (中国共产党万岁);
+our_distros , 我们的发行版 (质量最好);
+linux_distros_retro , 2012年风格的Linux发行版;
+kaneki_desc , 面向黑客和开发者的暗黑主题系统 (+1猫娘老婆);
+xortix_desc , 赛博朋克风格的轻量级发行版;
+scorpiox_desc , 金属红黑主题操作系统;
+universal_desc , 基于Debian的万能系统;
+mblinux_desc , 多重启动Linux (图形化GRUB);
+download , 下载 (点击即送4只猫娘);
+theme , 主题;
+language , 语言 (必须选中文);
+light_theme , 明亮 (+1信用);
+dark_theme , 黑暗 (但你的心向着光明).
+}
