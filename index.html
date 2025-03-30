@@ -5,70 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ScorpioX Team - Linux Distros</title>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/ps3-detector.js"></script>
 </head>
 <body class="light-theme">
     <div class="container">
-        <!-- Шапка -->
         <div class="header-panel">
             <h1>ScorpioX Team</h1>
             <p id="header-subtitle" data-i18n="linux_distros_retro">Linux Distros in Retro Style</p>
         </div>
 
-        <!-- Навигация -->
         <div class="nav-panel">
             <button class="nav-button active" data-tab="home" data-i18n="home">Главная</button>
             <button class="nav-button" data-tab="downloads" data-i18n="downloads">Загрузки</button>
             <button class="nav-button" data-tab="settings" data-i18n="settings">Настройки</button>
         </div>
 
-        <!-- Главная -->
         <div class="main-panel" id="home">
             <h2 data-i18n="our_distros">Наши дистрибутивы</h2>
             <div class="distro-grid">
-                <!-- Kaneki Linux -->
                 <div class="distro-card">
                     <img src="img/kaneki.png" alt="Kaneki Linux" class="distro-logo">
                     <h3>Kaneki Linux</h3>
                     <p data-i18n="kaneki_desc">Dark-themed OS for hackers and developers</p>
                     <button class="glossy-button" data-i18n="download">Скачать</button>
                 </div>
-                
-                <!-- XortiX Linux -->
                 <div class="distro-card">
                     <img src="img/xortix.png" alt="XortiX Linux" class="distro-logo">
                     <h3>XortiX Linux</h3>
                     <p data-i18n="xortix_desc">Cyberpunk-style lightweight distro</p>
                     <button class="glossy-button" data-i18n="download">Скачать</button>
                 </div>
-                
-                <!-- ScorpioX Linux -->
                 <div class="distro-card">
                     <img src="img/scorpiox.png" alt="ScorpioX Linux" class="distro-logo">
                     <h3>ScorpioX Linux</h3>
                     <p data-i18n="scorpiox_desc">Metallic red/black themed OS</p>
                     <button class="glossy-button" data-i18n="download">Скачать</button>
                 </div>
-                
-                <!-- Universal Linux -->
-                <div class="distro-card">
-                    <img src="img/universal.png" alt="Universal Linux" class="distro-logo">
-                    <h3>Universal Linux</h3>
-                    <p data-i18n="universal_desc">Debian-based all-purpose OS</p>
-                    <button class="glossy-button" data-i18n="download">Скачать</button>
-                </div>
-                
-                <!-- MBLinux -->
-                <div class="distro-card">
-                    <img src="img/mblinux.png" alt="MBLinux" class="distro-logo">
-                    <h3>MBLinux</h3>
-                    <p data-i18n="mblinux_desc">Multi-boot Linux (GRUB GUI)</p>
-                    <button class="glossy-button" data-i18n="download">Скачать</button>
-                </div>
             </div>
         </div>
 
-        <!-- Загрузки -->
         <div class="main-panel hidden" id="downloads">
             <h2 data-i18n="downloads">Загрузки</h2>
             <div class="download-list">
@@ -77,7 +53,7 @@
                     <div>
                         <h3>Kaneki Linux</h3>
                         <p data-i18n="kaneki_version">Version 1.2 | Debian-based | 1.4GB</p>
-                        <button class="glossy-button" onclick="window.location.href='https://example.com/download/kaneki'" data-i18n="download">Скачать</button>
+                        <button class="glossy-button" data-i18n="download">Скачать</button>
                     </div>
                 </div>
                 <div class="download-item">
@@ -85,13 +61,12 @@
                     <div>
                         <h3>XortiX Linux</h3>
                         <p data-i18n="xortix_version">Version 2.5 | Arch-based | 900MB</p>
-                        <button class="glossy-button" onclick="window.location.href='https://example.com/download/xortix'" data-i18n="download">Скачать</button>
+                        <button class="glossy-button" data-i18n="download">Скачать</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Настройки -->
         <div class="main-panel hidden" id="settings">
             <h2 data-i18n="settings">Настройки</h2>
             <div class="settings-grid">
@@ -109,7 +84,6 @@
                         <select id="language-selector"></select>
                     </div>
                 </div>
-                
                 <div class="settings-card">
                     <h3 data-i18n="system">Система</h3>
                     <div class="settings-item">
@@ -119,23 +93,11 @@
                             <span class="slider"></span>
                         </label>
                     </div>
-                    <div class="settings-item">
-                        <label data-i18n="send_stats">Отправлять статистику:</label>
-                        <label class="switch">
-                            <input type="checkbox" id="stats-sender">
-                            <span class="slider"></span>
-                        </label>
-                    </div>
                 </div>
             </div>
-            
-            <div class="settings-footer">
-                <button class="glossy-button" id="save-settings" data-i18n="save_settings">Сохранить</button>
-                <p id="settings-status"></p>
-            </div>
+            <button class="glossy-button" id="save-settings" data-i18n="save_settings">Сохранить</button>
         </div>
     </div>
-
-    <script src="script.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
