@@ -1,0 +1,19 @@
+name=Русский (СС)
+iso-code=RU-SU
+language{
+home , Командный центр;
+downloads , Сектор загрузки;
+settings , Конфигурационный блок;
+our_distros , Наши операционные системы;
+linux_distros_retro , Linux-дистрибутивы в стиле "Ретро-техно";
+kaneki_desc , Тёмная ОС для агентов спецопераций;
+xortix_desc , Лёгкий дистрибутив для кибер-разведки;
+scorpiox_desc , Боевая ОС с красно-чёрным интерфейсом;
+universal_desc , Универсальная система для всех задач;
+mblinux_desc , Мультизагрузочная платформа (ГРУБ-Tactical);
+download , Загрузить;
+theme , Интерфейс;
+language , Язык системы;
+light_theme , Стандарт;
+dark_theme , Тактический тёмный.
+}
