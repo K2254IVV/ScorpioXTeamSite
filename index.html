@@ -17,52 +17,86 @@
 
         <!-- Навигация -->
         <div class="nav-panel">
-            <button class="nav-button active" onclick="showTab('home')" data-i18n="home">Главная</button>
-            <button class="nav-button" onclick="showTab('downloads')" data-i18n="downloads">Загрузки</button>
-            <button class="nav-button" onclick="showTab('settings')" data-i18n="settings">Настройки</button>
-            <button class="nav-button" onclick="showTab('about')" data-i18n="about">О нас</button>
+            <button class="nav-button active" onclick="showTab('home')">Главная</button>
+            <button class="nav-button" onclick="showTab('downloads')">Загрузки</button>
+            <button class="nav-button" onclick="showTab('settings')">Настройки</button>
         </div>
 
         <!-- Главная -->
         <div class="main-panel" id="home">
-            <h2 data-i18n="our-distros">Наши дистрибутивы</h2>
+            <h2>Наши дистрибутивы</h2>
             <div class="distro-grid">
+                <!-- Kaneki Linux -->
                 <div class="distro-card">
                     <h3>Kaneki Linux</h3>
-                    <p data-i18n="kaneki-desc">Тёмный дистрибутив для разработчиков</p>
-                    <button class="glossy-button" data-i18n="download">Скачать</button>
+                    <p>Dark-themed OS for hackers and developers.</p>
+                    <button class="glossy-button">Download</button>
                 </div>
+                
+                <!-- XortiX Linux -->
                 <div class="distro-card">
                     <h3>XortiX Linux</h3>
-                    <p data-i18n="xortix-desc">Лёгкий киберпанк-дистрибутив</p>
-                    <button class="glossy-button" data-i18n="download">Скачать</button>
+                    <p>Cyberpunk-style lightweight distro.</p>
+                    <button class="glossy-button">Download</button>
+                </div>
+                
+                <!-- ScorpioX Linux -->
+                <div class="distro-card">
+                    <h3>ScorpioX Linux</h3>
+                    <p>Metallic red/black themed OS.</p>
+                    <button class="glossy-button">Download</button>
+                </div>
+                
+                <!-- Universal Linux -->
+                <div class="distro-card">
+                    <h3>Universal Linux</h3>
+                    <p>Debian-based all-purpose OS.</p>
+                    <button class="glossy-button">Download</button>
+                </div>
+                
+                <!-- MBLinux -->
+                <div class="distro-card">
+                    <h3>MBLinux</h3>
+                    <p>Multi-boot Linux (GRUB GUI).</p>
+                    <button class="glossy-button">Download</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Загрузки -->
+        <div class="main-panel hidden" id="downloads">
+            <h2>Загрузки</h2>
+            <div class="download-list">
+                <div class="download-item">
+                    <h3>Kaneki Linux</h3>
+                    <p>Version 1.0 | Debian-based | 1.2GB</p>
+                    <button class="glossy-button">Download ISO</button>
+                </div>
+                <div class="download-item">
+                    <h3>XortiX Linux</h3>
+                    <p>Version 2.4 | Arch-based | 800MB</p>
+                    <button class="glossy-button">Download ISO</button>
                 </div>
             </div>
         </div>
 
         <!-- Настройки -->
         <div class="main-panel hidden" id="settings">
-            <h2 data-i18n="settings">Настройки</h2>
+            <h2>Настройки</h2>
             <div class="settings-item">
-                <h3 data-i18n="theme">Тема</h3>
-                <select id="theme-selector" onchange="changeTheme()">
-                    <option value="light" data-i18n="light-theme">Светлая</option>
-                    <option value="dark" data-i18n="dark-theme">Тёмная</option>
+                <h3>Тема</h3>
+                <select id="theme-selector">
+                    <option value="light">Светлая</option>
+                    <option value="dark">Тёмная</option>
                 </select>
             </div>
             <div class="settings-item">
-                <h3 data-i18n="language">Язык</h3>
-                <select id="language-selector" onchange="changeLanguage()">
+                <h3>Язык</h3>
+                <select id="language-selector">
                     <option value="ru">Русский</option>
                     <option value="en">English</option>
                 </select>
             </div>
-        </div>
-
-        <!-- О нас -->
-        <div class="main-panel hidden" id="about">
-            <h2 data-i18n="about">О нас</h2>
-            <p data-i18n="about-text">Мы создаём Linux-дистрибутивы в стиле 2012 года.</p>
         </div>
     </div>
 
