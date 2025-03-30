@@ -1,3 +1,67 @@
+/* Основные стили */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Панели */
+.header-panel, .nav-panel, .main-panel {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Навигация */
+.nav-button {
+    background: linear-gradient(to bottom, #4a6da7, #2a4a7a);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.nav-button.active {
+    background: linear-gradient(to bottom, #6a8dc7, #4a6a9a);
+}
+
+/* Карточки дистрибутивов */
+.distro-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.distro-card {
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Кнопки */
+.glossy-button {
+    background: linear-gradient(to bottom, #6aad4a, #4a8d2a);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
 /* Тёмная тема */
 body.dark-theme {
     background: #111;
@@ -6,27 +70,16 @@ body.dark-theme {
 
 body.dark-theme .header-panel,
 body.dark-theme .nav-panel,
-body.dark-theme .main-panel,
-body.dark-theme .footer-panel {
+body.dark-theme .main-panel {
     background: #333;
     color: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Блок настроек */
-.settings-item {
-    margin-bottom: 20px;
-}
-
-.settings-item select {
-    padding: 8px;
-    border-radius: 5px;
-    background: #f5f5f5;
-    border: 1px solid #ddd;
-}
-
-body.dark-theme .settings-item select {
+body.dark-theme .distro-card {
     background: #444;
-    color: #fff;
-    border-color: #666;
+}
+
+/* Утилиты */
+.hidden {
+    display: none;
 }
