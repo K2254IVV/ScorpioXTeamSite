@@ -1,0 +1,19 @@
+name=English
+iso-code=EN-en
+language{
+home , Home;
+downloads , Downloads;
+settings , Settings;
+our_distros , Our Distributions;
+linux_distros_retro , Linux Distros in Retro Style;
+kaneki_desc , Dark-themed OS for hackers and developers;
+xortix_desc , Cyberpunk-style lightweight distro;
+scorpiox_desc , Metallic red/black themed OS;
+universal_desc , Debian-based all-purpose OS;
+mblinux_desc , Multi-boot Linux (GRUB GUI);
+download , Download;
+theme , Theme;
+language , Language;
+light_theme , Light;
+dark_theme , Dark.
+}
