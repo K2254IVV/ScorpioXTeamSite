@@ -1,0 +1,19 @@
+name=Русский
+iso-code=RU-ru
+language{
+home , Главная;
+downloads , Загрузки;
+settings , Настройки;
+our_distros , Наши дистрибутивы;
+linux_distros_retro , Linux дистрибутивы в ретро-стиле;
+kaneki_desc , Тёмная ОС для хакеров и разработчиков;
+xortix_desc , Лёгкий киберпанк-дистрибутив;
+scorpiox_desc , ОС в металлическом красно-чёрном стиле;
+universal_desc , Универсальный Debian-дистрибутив;
+mblinux_desc , Мультизагрузочный Linux (GRUB с GUI);
+download , Скачать;
+theme , Тема;
+language , Язык;
+light_theme , Светлая;
+dark_theme , Тёмная.
+}
