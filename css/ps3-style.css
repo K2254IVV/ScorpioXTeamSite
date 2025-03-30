@@ -1,0 +1,43 @@
+body.ps3-mode {
+    font-family: Arial !important;
+    font-size: 24px !important;
+    background: #000 !important;
+    color: #fff !important;
+}
+body.ps3-mode .container {
+    width: 90% !important;
+    padding: 10px !important;
+}
+body.ps3-mode .header-panel,
+body.ps3-mode .nav-panel,
+body.ps3-mode .main-panel {
+    background: #333 !important;
+    border: 2px solid #555 !important;
+    padding: 15px !important;
+    margin-bottom: 15px !important;
+}
+body.ps3-mode .nav-button {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    background: #444 !important;
+}
+body.ps3-mode .distro-grid {
+    display: block;
+}
+body.ps3-mode .distro-card {
+    width: 100%;
+    margin-bottom: 20px;
+    background: #222 !important;
+}
+body.ps3-mode select,
+body.ps3-mode button {
+    font-size: 24px;
+    padding: 15px;
+}
+body.ps3-mode * {
+    transition: none !important;
+    transform: none !important;
+}
