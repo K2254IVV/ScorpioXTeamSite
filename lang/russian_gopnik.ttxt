@@ -1,0 +1,19 @@
+name=Русский (Гопник)
+iso-code=RU-GOP
+language{
+home , Главная (чё как, пацан?);
+downloads , Качалка;
+settings , Поняшки;
+our_distros , Наши софтины;
+linux_distros_retro , Линухи в стиле 2012 (олды тут?);
+kaneki_desc , Тёмная ось для хацкеров и прогеров;
+xortix_desc , Лёгкий дистр для киберпанк-пацанов;
+scorpiox_desc , Ось с металлическим стилем (ништяк!);
+universal_desc , Универсальный дебиан (для чайников);
+mblinux_desc , Мультизагрузка (типа ГРУБ с картинками);
+download , Качнуть;
+theme , Скины;
+language , Блатная речь;
+light_theme , Светляк;
+dark_theme , Тёмка (го в чёрном!).
+}
